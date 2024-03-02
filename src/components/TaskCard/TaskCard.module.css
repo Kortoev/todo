@@ -1,0 +1,41 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 710px;
+  height: 72px;
+  background: #262626;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.readyBtn {
+  height: 24px;
+  width: 24px;
+  border: 1px solid #4ea8de;
+  background: #4ea8de;
+  border-radius: 100%;
+}
+
+.noReadyBtn {
+  height: 24px;
+  width: 24px;
+  border: 1px solid #4ea8de;
+
+  border-radius: 100%;
+}
+
+.listText {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f2f2f2;
+}
+
+.delete {
+  background: transparent 0;
+  border: none;
+}
